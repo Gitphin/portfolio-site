@@ -24,6 +24,7 @@
   font-size: 70px;
   padding: 20px;
 }
+
 contactborder {
     width: 360px;
     height: 65px;
@@ -43,6 +44,7 @@ contactborder:hover {
   height: 80px;
   background-color: #70d3b5;
 }
+
 span {
     display: flex;
     gap: 24px;
@@ -78,7 +80,6 @@ span {
     align-self: center;
     justify-content: center;
 }
-
 
 @media (max-width: 600px) {
   .me {

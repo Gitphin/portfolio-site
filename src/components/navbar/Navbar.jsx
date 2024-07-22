@@ -42,7 +42,7 @@ export const Navbar = () => {
           >
             Contact
           </a>
-      </nav>
+        </nav>
       </section>
     );
 }

@@ -1,3 +1,5 @@
+import React, { useState } from 'react';
+
 import styles from './experience.module.css';
 import python from '../../assets/experience/python.png';
 import c from '../../assets/experience/c.png';
@@ -19,38 +21,79 @@ import react from '../../assets/experience/react.png';
 import jscript from '../../assets/experience/jscript.png';
 import css from '../../assets/experience/css.png';
 import ocaml from '../../assets/experience/ocaml.png';
-import ruby from '../../assets/experience/ruby.png';
+import postgres from '../../assets/experience/postgres.png';
+
+const skillDescriptions = {
+    python: "Python - Experienced",
+    c: "C - Experienced",
+    java: "Java - Advanced",
+    rust: "Rust - Advanced",
+    cpp: "C++ - Familiar",
+    dj: "Django - Advanced",
+    asm: "Assembly - Familiar",
+    node: "Node.js - Familiar",
+    sql: "SQL - Familiar",
+    postman: "Postman - Familiar",
+    git: "Git - Advanced",
+    slack: "Slack - Familiar",
+    jira: "Jira - Advanced",
+    linux: "Debian/Ubuntu - Advanced",
+    bash: "Bash scripting - Familiar",
+    lua: "Lua - Familiar",
+    react: "React - Familiar",
+    jscript: "JavaScript - Familiar",
+    css: "CSS/HTML - Familiar",
+    ocaml: "OCaml - Advanced",
+    postgres: "PostgreSQL - Advanced"
+};
+
+const skillImages = {
+    python,
+    c,
+    java,
+    rust,
+    asm,
+    cpp,
+    dj,
+    node,
+    sql,
+    postman,
+    git,
+    slack,
+    jira,
+    linux,
+    bash,
+    lua,
+    react,
+    jscript,
+    css,
+    ocaml,
+    postgres
+};
+
 export const Experience = () => {
+    const [description, setDescription] = useState('');
+
+    const handleImageClick = (skill) => {
+        setDescription(skillDescriptions[skill]);
+    };
+    
     return (
         <section id="experience" className={styles.container}>
             <experience className={styles.experience}>
-            <h1 className='main_sub'>My Skills</h1>
+                <h1 className='main_sub'>My Skills</h1>
                 <div className={styles.skillsContainer}>
-                    <skills className={styles.skills}><img src={python} ></img></skills>
-                    <skills className={styles.skills}><img src={c}></img></skills>
-                    <skills className={styles.skills}><img src={java}></img></skills>
-                    <skills className={styles.skills}><img src={rust}></img></skills>
-                    <skills className={styles.skills}><img src={cpp}></img></skills>
-                    <skills className={styles.skills}><img src={dj}></img></skills>
-                    <skills className={styles.skills}><img src={asm}></img></skills>
-                    <skills className={styles.skills}><img src={node}></img></skills>
-                    <skills className={styles.skills}><img src={sql}></img></skills>
-                    <skills className={styles.skills}><img src={postman}></img></skills>
-                    <skills className={styles.skills}><img src={git}></img></skills>
-                    <skills className={styles.skills}><img src={slack}></img></skills>
-                    <skills className={styles.skills}><img src={jira}></img></skills>
-                    <skills className={styles.skills}><img src={linux}></img></skills>
-                    <skills className={styles.skills}><img src={bash}></img></skills>
-                    <skills className={styles.skills}><img src={lua}></img></skills>
-                    <skills className={styles.skills}><img src={react}></img></skills>
-                    <skills className={styles.skills}><img src={jscript}></img></skills>
-                    <skills className={styles.skills}><img src={css}></img></skills>
-                    <skills className={styles.skills}><img src={ocaml}></img></skills>
-                    <skills className={styles.skills}><img src={ruby}></img></skills>
+                    {Object.keys(skillDescriptions).map(skill => (
+                        <div key={skill} className={styles.skills} onClick={() => handleImageClick(skill)}>
+                            <img src={skillImages[skill]} alt={skill} />
+                        </div>
+                    ))}
                 </div>
+                {description && <p className={styles.description}>{description}</p>}
             </experience>
         </section>
     );
-}
+};
 
 export default Experience;
+
