@@ -13,7 +13,8 @@
 }
 
 .experience:hover {
-    background-color: #b7e7e2;
+    background-color: #d6ecea;
+    border: 4px solid #1a9c77;
 }
 
 h1 {
