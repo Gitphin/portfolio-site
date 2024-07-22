@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Varela+Round&display=swap");
+
+#root {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  text-align: center;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.main {
+  font-family: "Montserrat", sans-serif;
+  margin: 40px 0 0px 0;
+  color: #28635e;
+  font-size: 64px;
+}
+
+.sub {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 30px;
+  color: #2e8871;
+  font-size: 24px;
+}
+
+.subsub {
+  font-family: "Roboto", sans-serif;
+  margin: -10px 0 0px 0;
+  color: #398673;
+  font-size: 12px;
+  font-weight: bold;
+
+}
