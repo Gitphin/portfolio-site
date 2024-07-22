@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Varela+Round&display=swap");
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+nav {
+    background: #28635e;
+    opacity: 0.8;
+    width: max-content;
+    transform: translateY(+50%);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    gap: 0.8rem;
+    border-radius: 3rem;
+    border: 4px solid #26413e;
+    backdrop-filter: blur(15px);
+    transition: background-color 0.3s;
+    transition: border-color 0.3s;
+  }
+nav:hover {
+    border: 4px solid #1d8074;
+}
+  nav a {
+    text-decoration: none;
+    background: #28635e;
+    padding: 0.8rem;
+    border-radius: 3rem;
+    display: flex;
+    color: #d6f9fd;
+    font-size: 1.1rem;
+    font-family: "Montserrat", sans-serif;
+    transition: background-color 0.3s, font-size 0.3s;
+  }
+  nav a:hover {
+    color:#ffffff;
+    background: #439c86;
+    font-size: 19px;
+  }
+  nav a.active {
+    background: var(--color-primary);
+    color: var(--color-bg);
+  }
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: row;
+        gap: 0.5rem;
+        width: max-content;
+        transform: translateY(0);
+        top: 10px;
+    }
+    
+    nav a {
+        padding: 0.5rem;
+        font-size: 1rem;
+    }
+}

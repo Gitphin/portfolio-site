@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Varela+Round&display=swap");
 
+
+html {
+  scroll-behavior: smooth;
+}
 #root {
   display: flex;
   flex-direction: column;
@@ -8,28 +12,37 @@
 }
 
 body {
-  background-color: rgb(255, 255, 255);
+  background-color: #e5e5f7;
+  background-image:  linear-gradient(#97dbcd 1px, transparent 1px), linear-gradient(to right, #97dbcd 1px, #e5e5f7 1px);
+  background-size: 20px 20px;
 }
 
 .main {
   font-family: "Montserrat", sans-serif;
   margin: 40px 0 0px 0;
-  color: #28635e;
+  color: #08504a;
   font-size: 64px;
+}
+
+.main_sub {
+  font-family: "Montserrat", sans-serif;
+  margin: 0px 0 0px 0;
+  color: #1bad7d;
+  font-size: 52px;
 }
 
 .sub {
   font-family: "Montserrat", sans-serif;
-  margin-bottom: 30px;
-  color: #2e8871;
-  font-size: 24px;
+  margin-bottom: 20px;
+  color: #256d5b;
+  font-size: 28px;
 }
 
 .subsub {
-  font-family: "Roboto", sans-serif;
-  margin: -10px 0 0px 0;
-  color: #398673;
-  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 0 0px 0;
+  color: #3d8561;
+  font-size: 24px;
   font-weight: bold;
 
 }

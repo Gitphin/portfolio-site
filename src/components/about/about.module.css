@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+  }
+
+about {
+    margin: 0px;
+    border: 4px solid #136950;
+    padding: 20px;
+    max-width: 700px;
+    transition: border-color 0.3s, background-color 0.3s;
+    background-color: #dcfcf8;
+    border-radius: 8px;
+}
+
+p {
+    padding: 20px;
+}
+
+about:hover {
+    border: 4px solid #1a9c77;
+    background-color: #c0f8f1;
+}
