@@ -2,27 +2,27 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
     flex: 1;
     width: 100%;
     transform: translateY(70px);
   }
   
   footer {
-    margin: 0;
-    border: 4px solid #136950;
-    padding: 10px;
+    border: 8px solid #136950;
+    border-bottom: transparent;
+    border-left: 8px solid #3a8f7a;
+    border-right: 8px solid #3a8f7a;
     width: 100%;
     transition: border-color 0.3s, background-color 0.3s;
     background-color: #3a8f7a;
-    border-radius: 8px;
     color: #c0f8f1;
     font-family: "Montserrat", sans-serif;
     font-size: 24px;
   }
   
   footer p {
-    padding: 20px;
+    padding: 0px;
   }
   
   .main_sub {

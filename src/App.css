@@ -47,7 +47,7 @@ background-size: 12px 12px;
 .subsub {
   font-family: "Montserrat", sans-serif;
   margin: 10px 0 0px 0;
-  color: #3a9b83;
+  color: #2e8d75;
   font-size: 24px;
   font-weight: bold;
 
@@ -164,20 +164,23 @@ body.dark-mode contact:hover {
 }
 
 body.dark-mode contact connect {
-  background-color: rgb(82, 153, 129);
+  background-color: rgb(59, 138, 111);
   border: 4px solid #9ce9d0;
   color: rgb(255, 255, 255);
 }
 
 body.dark-mode contact connect:hover {
-  background-color: rgb(85, 211, 169);
+  background-color: rgb(82, 189, 153);
   border: 4px solid #b9e7d9;
   color: rgb(255, 255, 255);
 }
 
 /* Footer */
 body.dark-mode footer {
-  background-color: rgb(82, 153, 129);
-  border: 3px solid #96c0b3;
+  background-color: rgb(59, 138, 111);
+  border: 8px solid #65ceab;
+  border-bottom: transparent;
+  border-left: 8px solid rgb(82, 170, 141);
+  border-right: 8px solid rgb(82, 170, 141);
   color:rgb(224, 235, 232);
 }
