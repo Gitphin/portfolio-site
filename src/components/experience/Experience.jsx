@@ -24,27 +24,27 @@ import ocaml from '../../assets/experience/ocaml.png';
 import postgres from '../../assets/experience/postgres.png';
 
 const skillDescriptions = {
-    python: "Python - Experienced",
-    c: "C - Experienced",
-    java: "Java - Advanced",
-    rust: "Rust - Advanced",
-    cpp: "C++ - Familiar",
-    dj: "Django - Advanced",
-    asm: "Assembly - Familiar",
-    node: "Node.js - Familiar",
-    sql: "SQL - Familiar",
-    postman: "Postman - Familiar",
-    git: "Git - Advanced",
-    slack: "Slack - Familiar",
-    jira: "Jira - Advanced",
-    linux: "Debian/Ubuntu - Advanced",
-    bash: "Bash scripting - Familiar",
-    lua: "Lua - Familiar",
-    react: "React - Familiar",
-    jscript: "JavaScript - Familiar",
-    css: "CSS/HTML - Familiar",
-    ocaml: "OCaml - Advanced",
-    postgres: "PostgreSQL - Advanced"
+    python: "Python - (Experienced)",
+    c: "C - (Experienced)",
+    java: "Java - (Advanced)",
+    rust: "Rust - (Advanced)",
+    cpp: "C++ - (Familiar)",
+    dj: "Django - (Advanced)",
+    asm: "Assembly - (Familiar)",
+    node: "Node.js - (Familiar)",
+    sql: "SQL - (Familiar)",
+    postman: "Postman - (Familiar)",
+    git: "Git - (Advanced)",
+    slack: "Slack - (Familiar)",
+    jira: "Jira - (Advanced)",
+    linux: "Debian/Ubuntu - (Advanced)",
+    bash: "Bash scripting - (Familiar)",
+    lua: "Lua - (Familiar)",
+    react: "React - (Familiar)",
+    jscript: "JavaScript - (Familiar)",
+    css: "CSS/HTML - (Familiar)",
+    ocaml: "OCaml - (Advanced)",
+    postgres: "PostgreSQL - (Advanced)"
 };
 
 const skillImages = {
@@ -84,12 +84,12 @@ export const Experience = () => {
                 <h1 className='main_sub'>My Skills</h1>
                 <div className={styles.skillsContainer}>
                     {Object.keys(skillDescriptions).map(skill => (
-                        <div key={skill} className={styles.skills} onClick={() => handleImageClick(skill)}>
+                        <skimg><div key={skill} className={styles.skills} onClick={() => handleImageClick(skill)}>
                             <img src={skillImages[skill]} alt={skill} />
-                        </div>
+                        </div></skimg>
                     ))}
                 </div>
-                {description && <p className={styles.description}>{description}</p>}
+                <dsc>{description && <p className={styles.description}>{description}</p>}</dsc>
             </experience>
         </section>
     );

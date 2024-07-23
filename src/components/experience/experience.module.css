@@ -31,7 +31,7 @@ experience {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(90px, 2fr));
     gap: 10px;
-    width: 100%; 
+    width: 100%;
 }
 
 .skills {
@@ -42,13 +42,28 @@ experience {
     max-height: 40px;
     padding: 20px;
     font-family: "Montserrat", sans-serif;
-    border: 3px solid #136950;
+    background-color: #dcfcf8;
+    border: 3px solid #2a6964;
     border-radius: 8px;
-    background-color: #a7ebc6;
     transition: background-color 0.3s, border-color 0.3s;
 }
 
 .skills:hover {
-    border-color: #1a9c77;
-    background-color: #7de4d8;
+    background-color: #89cccf;
+    border: 3px solid #23a095;
+}
+
+dsc p{
+    background-color: #dcfcf8;
+    border: 3px solid #2a6964;
+    border-radius: 8px;
+    padding: 10px;
+    max-width: 300px;
+    width: 100%;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+dsc p:hover{
+    background-color: #d3dddd8f;
+    border: 3px solid #28aca1;
 }
