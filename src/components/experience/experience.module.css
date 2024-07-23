@@ -29,7 +29,7 @@ experience {
 
 .skillsContainer {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(90px, 2fr));
+    grid-template-columns: repeat(auto-fit, minmax(80px, 2fr));
     gap: 10px;
     width: 100%;
 }
@@ -51,6 +51,7 @@ experience {
 .skills:hover {
     background-color: #89cccf;
     border: 3px solid #23a095;
+    cursor: pointer; 
 }
 
 dsc p{
@@ -58,8 +59,7 @@ dsc p{
     border: 3px solid #2a6964;
     border-radius: 8px;
     padding: 10px;
-    max-width: 300px;
-    width: 100%;
+    width: 300px;
     transition: background-color 0.3s, border-color 0.3s;
 }
 

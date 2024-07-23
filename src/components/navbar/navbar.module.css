@@ -43,16 +43,24 @@ nav a:hover {
 }
 
 @media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
     nav {
-        flex-direction: row;
+        flex-direction: column;
         gap: 0.5rem;
-        width: max-content;
+        width: 380px;
         transform: translateY(0);
         top: 10px;
+        border-radius: 1rem;
     }
-    
+
     nav a {
         padding: 0.5rem;
         font-size: 1rem;
+
+        text-align: center;
     }
 }
