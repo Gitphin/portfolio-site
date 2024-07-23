@@ -6,6 +6,7 @@ import github from '../../assets/header/github.png'
 import resume from '../../assets/header/resume.png'
 import linkedin from '../../assets/header/linkedin.png'
 import leet from '../../assets/header/leet.png'
+import CV from '../../assets/header/AlexanderHolimanResume.pdf'
 
 export const Header = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -13,7 +14,7 @@ export const Header = () => {
   const toggleDarkMode = () => {
     setDarkMode(prevMode => !prevMode);
   };
-  
+
   useEffect(() => {
     if (darkMode) {
       document.body.classList.add('dark-mode');
@@ -30,8 +31,8 @@ export const Header = () => {
         <p className="sub">Find my resume and socials below!</p>
       <contactborder>
         <span>
-            <a href="../../assets/header/AlekHolimanResume.pdf" download>
-              <img src={resume}/>
+            <a href={CV}>
+              <img src={resume} download/>
             </a>
             <a href="https://www.linkedin.com/in/alexander-holiman-8940542a9/" target="_blank">
               <img src={linkedin}/>

@@ -17,7 +17,7 @@ body {
 }
 body.dark-mode {
   background-color: #e5e5f7;
-background-image: radial-gradient( ellipse farthest-corner at 10px 10px , #414040, #000000 50%, #000000 50%);
+background-image: radial-gradient( ellipse farthest-corner at 10px 10px , #141414, #000000 50%, #000000 50%);
 background-size: 12px 12px;
 
 }
@@ -25,36 +25,36 @@ background-size: 12px 12px;
 /*Common font/styling */
 .main {
   font-family: "Montserrat", sans-serif;
-  margin: 40px 0 -20px 0;
-  color: #08504a;
+  margin: 0px 0 -20px 0;
+  color: #217c75;
   font-size: 64px;
 }
 
 .main_sub {
   font-family: "Montserrat", sans-serif;
   margin: 0px 0 0px 0;
-  color: #08504a;
+  color: #217c75;
   font-size: 52px;
 }
 
 .sub {
   font-family: "Montserrat", sans-serif;
-  margin-bottom: 20px;
-  color: #256d5b;
+  margin: -10px;
+  color: #3a8f7a;
   font-size: 32px;
 }
 
 .subsub {
   font-family: "Montserrat", sans-serif;
   margin: 10px 0 0px 0;
-  color: #3d8561;
+  color: #3a9b83;
   font-size: 24px;
   font-weight: bold;
 
 }
 
 body.dark-mode .main{
-  color: rgb(211, 233, 233);
+  color: rgb(255, 255, 255);
 }
 
 body.dark-mode .main_sub {
@@ -64,7 +64,7 @@ body.dark-mode .main_sub {
 }
 
 body.dark-mode .sub{
-  color: rgb(186, 202, 202);
+  color: rgb(218, 230, 230);
 }
 
 body.dark-mode .subsub {
@@ -73,20 +73,39 @@ body.dark-mode .subsub {
   color: rgb(135, 196, 175);
 }
 
+/* Navbar */
+body.dark-mode nav {
+  border-color: #65ceab;
+  background-color: rgb(43, 44, 44);
+}
+body.dark-mode nav:hover {
+  border-color: #9de4cc;
+  background-color: rgb(56, 56, 56, 0.753);
+}
+
+body.dark-mode nav a{
+  border-color: #65ceab;
+  background-color: rgb(43, 44, 44);
+}
+body.dark-mode nav a:hover {
+  border-color: #9de4cc;
+  background-color: rgba(124, 124, 124, 0.753);
+}
+
 /* Header */
 body.dark-mode contactborder {
   border-color: #65ceab;
-  background-color: #1b6156;
+  background-color: rgb(43, 44, 44);
 }
 body.dark-mode contactborder:hover {
   border-color: #97d6cd;
-  background-color: #317c71;
+  background-color: rgb(56, 56, 56, 0.753);
 }
 
 body.dark-mode span {
   img {
     background-color: #4e837d;
-        border: 3px solid #7baaa3;
+        border: 3px solid #65ceab;
         border-radius: 8px;
   }
 
@@ -106,24 +125,11 @@ body.dark-mode about {
 }
 
 body.dark-mode about:hover {
-  background-color: rgb(56, 56, 56);
+  background-color: rgb(56, 56, 56, 0.753);
   border: 4px solid #7dd3bd;
 }
 
-/* Navbar */
-body.dark-mode nav {
-  border-color: #65ceab;
-}
-body.dark-mode nav:hover {
-  border-color: #9de4cc;
-}
-
 /* Experience / Skills */
-body.dark-mode experience:hover {
-  background-color: rgb(56, 56, 56);
-  border: 4px solid #68c4a5;
-}
-
 body.dark-mode skills {
   background-color: rgb(82, 153, 129);
   border: 3px solid #96c0b3;
@@ -138,6 +144,11 @@ body.dark-mode experience {
   font-size: 30px;
 }
 
+body.dark-mode experience:hover {
+  background-color: rgb(56, 56, 56, 0.753);
+  border: 4px solid #68c4a5;
+}
+
 /*Projects */
 
 
@@ -148,7 +159,7 @@ body.dark-mode contact {
 }
 
 body.dark-mode contact:hover {
-  background-color: rgb(56, 56, 56);
+  background-color: rgba(56, 56, 56, 0.753);
   border: 4px solid #7dd3bd;
 }
 
@@ -162,11 +173,6 @@ body.dark-mode contact connect:hover {
   background-color: rgb(85, 211, 169);
   border: 4px solid #b9e7d9;
   color: rgb(255, 255, 255);
-}
-
-body.dark-mode experience:hover {
-  background-color: rgb(56, 56, 56);
-  border: 4px solid #68c4a5;
 }
 
 /* Footer */
