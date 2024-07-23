@@ -28,7 +28,7 @@ export const Header = () => {
       <span className={styles.toggleIcon}>{darkMode ? '🌙' : '🌞'}</span>
       <img className={styles.me} src={me} alt="Me" onClick={toggleDarkMode} />
       <h1 className="main">Hello, I'm Alek</h1>
-        <p className="sub">Find my resume and socials below!</p>
+      <div><p className="sub">Find my resume and socials below!</p></div>
       <contactborder>
         <span>
             <a href={CV}>

@@ -24,8 +24,14 @@
 .toggleIcon {
   font-size: 70px;
   padding: 20px;
+  user-select: none;
 }
 
+div p {
+  padding: 30px;
+  user-select: none;
+
+}
 contactborder {
     width: 360px;
     height: 65px;
@@ -69,7 +75,7 @@ span {
       img {
         padding: 8px;
         width: 50px;
-        background-color: #89cccf;
+        background-color: #83dac8b6;
         border: 3px solid #23a095;
         border-radius: 8px;
       }

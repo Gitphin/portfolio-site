@@ -17,8 +17,8 @@ body {
 }
 body.dark-mode {
   background-color: #e5e5f7;
-background-image: radial-gradient( ellipse farthest-corner at 10px 10px , #141414, #000000 50%, #000000 50%);
-background-size: 12px 12px;
+  background-image: radial-gradient( ellipse farthest-corner at 10px 10px , #141414, #000000 50%, #000000 50%);
+  background-size: 12px 12px;
 
 }
 
@@ -28,13 +28,23 @@ background-size: 12px 12px;
   margin: 0px 0 -20px 0;
   color: #217c75;
   font-size: 64px;
+  user-select: none;
 }
 
 .main_sub {
   font-family: "Montserrat", sans-serif;
-  margin: 0px 0 0px 0;
-  color: #217c75;
+  border: 2px solid #2a6964;
+  border-radius: 8px;
+  background-color: #50a8a1;
+  color: #fafafa;
   font-size: 52px;
+  user-select: none;
+  transition: background-color 0.3s;
+}
+
+.main_sub:hover {
+  background-color: #50a8a1c7;
+
 }
 
 .sub {
@@ -59,8 +69,14 @@ body.dark-mode .main{
 
 body.dark-mode .main_sub {
   font-family: "Montserrat", sans-serif;
-  margin: 0px 0 0px 0;
+  border-color: #65ceab;
+  background-color: rgba(43, 44, 44, 0.75);
   color: rgb(211, 233, 233);
+  transition: background-color 0.3s;
+}
+
+body.dark-mode .main_sub:hover {
+  background-color: rgba(43, 44, 44, 0);
 }
 
 body.dark-mode .sub{
@@ -69,8 +85,7 @@ body.dark-mode .sub{
 
 body.dark-mode .subsub {
   font-family: "Montserrat", sans-serif;
-  margin: 0px 0 0px 0;
-  color: rgb(135, 196, 175);
+  color: rgba(255, 255, 255, 0.637);
 }
 
 /* Navbar */
@@ -96,23 +111,22 @@ body.dark-mode nav a:hover {
 /* Header */
 body.dark-mode contactborder {
   border-color: #65ceab;
-  background-color: rgb(43, 44, 44);
+  background-color: rgba(43, 44, 44, 0.75);
 }
 body.dark-mode contactborder:hover {
   border-color: #4a8173;
-  background-color: rgb(56, 56, 56, 0.753);
+  background-color: rgba(43, 44, 44, 0.5);
 }
 
 body.dark-mode span {
   img {
     background-color: #4e837d;
     border: 3px solid #65ceab;
-    border-radius: 8px;
   }
 
   img:hover {
-    background-color: #97d6cd;
-    border: 3px solid #1a9c77;
+    background-color: #89cccf3f;
+    border: 3px solid #23a095;
   }
 }
 
@@ -122,14 +136,28 @@ body.dark-mode img {
 
 /* About */
 body.dark-mode about {
-  background-color: rgb(43, 44, 44);
+  background-color: rgba(43, 44, 44, 0.75);
   border: 4px solid #65ceab;
+  background-image: none;
+  transition: background-color 0.3s, border-color 0.3s;
 }
 
 body.dark-mode about:hover {
-  background-color: rgb(56, 56, 56, 0.753);
+  background-color: rgba(43, 44, 44, 0.5);
   border: 4px solid #4a8173;
 }
+
+body.dark-mode about p {
+  background-color: #4e837d;
+  border: 3px solid #65ceab;
+  color: rgb(255, 255, 255);
+}
+
+body.dark-mode about p:hover {
+background-color: #89cccf3f;
+border: 3px solid #23a095;
+}
+
 
 /* Experience / Skills */
 body.dark-mode skills {
@@ -139,15 +167,15 @@ body.dark-mode skills {
 }
 
 body.dark-mode experience {
-  background-color: rgb(43, 44, 44);
+  background-color: rgba(43, 44, 44, 0.75);
   border: 4px solid #65ceab;
+  background-image: none;
+  transition: background-color 0.3s, border-color 0.3s;
   color: rgb(211, 233, 233);
-  font-family: "Montserrat", sans-serif;
-  font-size: 30px;
 }
 
 body.dark-mode experience:hover {
-  background-color: rgb(56, 56, 56, 0.753);
+  background-color: rgba(43, 44, 44, 0.50);
   border: 4px solid #4a8173;
 }
 
@@ -158,7 +186,12 @@ body.dark-mode dsc p {
 
 body.dark-mode skimg div {
   background-color: #4e837d;
-  border: 4px solid #65ceab;
+  border: 3px solid #65ceab;
+}
+
+body.dark-mode skimg div:hover {
+  background-color: #89cccf3f;
+  border: 3px solid #23a095;
 }
 
 body.dark-mode dsc p:hover {
@@ -171,25 +204,93 @@ body.dark-mode dsc p:hover {
 
 /* Contact */
 body.dark-mode contact {
-  background-color: rgb(43, 44, 44);
+  background-color: rgba(43, 44, 44, 0.75);
   border: 4px solid #65ceab;
+  background-image: none;
 }
 
 body.dark-mode contact:hover {
-  background-color: rgba(56, 56, 56, 0.753);
+  background-color: rgba(43, 44, 44, 0.5);
   border: 4px solid #4a8173;
 }
 
-body.dark-mode contact connect {
-  background-color: #4e837d;
-  border: 4px solid #65ceab;
-  color: rgb(255, 255, 255);
+body.dark-mode contact div {
+  background-color: #4e837da4;
+  border: 3px solid #65ceab;
 }
 
-body.dark-mode contact connect:hover {
-  background-color: #89cccf;
-        border: 3px solid #23a095;
-  color: rgb(255, 255, 255);
+body.dark-mode contact div:hover {
+  border: 3px solid #23a095;
+}
+
+body.dark-mode contact div in input {
+  border-radius: 8px;
+  padding: 10px;
+  border: 3px solid #2a6964;
+  background-color: #d1e8eb70;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.541);
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+body.dark-mode contact div in input:hover {
+  background-color: #94a19fa6;
+  border: 3px solid #aed3c8;
+  color: white;
+}
+
+body.dark-mode contact div in input:focus {
+  background-color: #4b92836e;
+  border: 3px solid #aed3c8;
+  color: white;
+}
+
+body.dark-mode contact div in textarea {
+  border-radius: 8px;
+  padding: 10px;
+  padding-bottom: 80px;
+  border: 3px solid #2a6964;
+  background-color: #d1e8eb70;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.541);
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+body.dark-mode contact div in textarea:hover {
+  background-color: #94a19fa6;
+  border: 3px solid #aed3c8;
+  color: white;
+}
+
+body.dark-mode contact div in textarea:focus {
+  background-color: #4b92836e;
+  border: 3px solid #aed3c8;
+  color: white;
+}
+
+body.dark-mode contact div in button {
+  border-radius: 8px;
+  padding: 10px;
+  border: 3px solid #2a6964;
+  background-color: #50a8a1;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: white;
+  transition: background-color 0.3s, border-color 0.3s, font-size 0.3s;
+}
+
+body.dark-mode contact div in button:hover {
+  border: 3px solid #aed3c8;
+  background-color: #94a19fa6;
+  font-size: 24px;
+}
+
+body.dark-mode contact div in button:focus {
+  background-color: #4b92836e;
+  border: 3px solid #aed3c8;
+  color: white;
 }
 
 /* Footer */

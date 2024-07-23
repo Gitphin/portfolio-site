@@ -16,7 +16,7 @@ nav {
     gap: 0.8rem;
     border-radius: 3rem;
     border: 4px solid #25a193;
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(10px) saturate(50%);
     transition: background-color 0.3s, border-color 0.3s;
 }
 
