@@ -1,19 +1,6 @@
-import { useState } from 'react';
-
 import styles from './contact.module.css';
-import email from '../../assets/contact/email.png'
-import whatsapp from '../../assets/contact/whatsapp.png'
 
 export const Contact = () => {
-    const [emailText, setEmailText] = useState('alek.holiman@gmail.com');
-    const [whatsappText, setWhatsappText] = useState('+1 (952) 843 3397');
-    const copyToClipboard = (text, setText) => {
-        navigator.clipboard.writeText(text).then(() => {
-            setText('Copied!');
-            setTimeout(() => setText(text), 500);
-        });
-    };
-
     return (
         <section id="contact" className={styles.container}>
         <contact>

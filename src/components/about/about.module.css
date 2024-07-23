@@ -43,16 +43,16 @@ about p:hover {
 }
 
 @media (max-width: 600px) {
-    .container {
-      padding: 20px;
-    }
-  
-    about {
-      padding: 15px;
-      max-width: 100%;
-    }
-  
-    p {
-      padding: 20px;
-    }
+  .container {
+    padding: 20px;
   }
+
+  about {
+    padding: 15px;
+    max-width: 100%;
+  }
+
+  p {
+    padding: 20px;
+  }
+}

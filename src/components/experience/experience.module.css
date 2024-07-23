@@ -21,14 +21,14 @@
     background-color: #d9f8f8a4;
 }
 
-h1 {
-    padding: 20px;
-}
-
 experience {
     font-family: "Montserrat", sans-serif;
     font-size: 30px;
     color: #0c8177;
+}
+
+h1 {
+    padding: 20px;
 }
 
 .skillsContainer {
@@ -58,7 +58,7 @@ experience {
     cursor: pointer; 
 }
 
-dsc p{
+dsc p {
     background-color: #eef1f16c;
     border: 3px solid #2a6964;
     border-radius: 8px;
@@ -67,7 +67,7 @@ dsc p{
     transition: background-color 0.3s, border-color 0.3s;
 }
 
-dsc p:hover{
+dsc p:hover {
     background-color: #d3dddd8f;
     border: 3px solid #28aca1;
 }

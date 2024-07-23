@@ -84,9 +84,11 @@ export const Experience = () => {
                 <h1 className='main_sub'>My Skills</h1>
                 <div className={styles.skillsContainer}>
                     {Object.keys(skillDescriptions).map(skill => (
-                        <skimg><div key={skill} className={styles.skills} onClick={() => handleImageClick(skill)}>
-                            <img src={skillImages[skill]} alt={skill} />
-                        </div></skimg>
+                        <skimg>
+                            <div key={skill} className={styles.skills} onClick={() => handleImageClick(skill)}>
+                                <img src={skillImages[skill]} alt={skill} />
+                            </div>
+                        </skimg>
                     ))}
                 </div>
                 <dsc>{description && <p className={styles.description}>{description}</p>}</dsc>

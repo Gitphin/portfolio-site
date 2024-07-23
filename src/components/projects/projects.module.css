@@ -4,4 +4,49 @@
     align-items: center;
     justify-content: center;
     padding: 25px;
+}
+projects {
+  margin: 0px;
+  border: 4px solid #136950;
+  padding: 40px;
+  padding-bottom: 50px;
+  max-width: 660px;
+  width: 100%;
+  transition: border-color 0.3s, background-color 0.3s;
+  border-radius: 8px;
+  background-color: #e5e5f7;
+  background-image:  linear-gradient(135deg, #d9dbef 25%, transparent 25%), linear-gradient(225deg, #edeef5 25%, transparent 25%), linear-gradient(45deg, #d9dbef 25%, transparent 25%), linear-gradient(315deg, #ebecf5 25%, #e5e5f7 25%);
+  background-position:  10px 0, 10px 0, 0 0, 0 0;
+  background-size: 20px 20px;
+  background-repeat: repeat;
+  transition: border-color 0.3s;
+}
+
+projects:hover {
+    border: 4px solid #36a888;
+}
+
+projects a img{
+  background-color: #eef1f16c;
+  border: 3px solid #2a6964;
+  border-radius: 8px;
+  padding: 10px;
+  width: 50px;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+projects a img:hover{
+  background-color: #d3dddd8f;
+  border: 3px solid #28aca1;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 20px;
   }
+
+  projects {
+    padding: 15px;
+    max-width: 100%;
+  }
+}
