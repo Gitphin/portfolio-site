@@ -33,7 +33,7 @@ projects projcontain {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* Two columns */
   max-width: 800px;
-  padding: 15px;
+  padding: 20px;
   flex-direction: column;
   gap: 40px;
   border-radius: 8px;
@@ -41,12 +41,11 @@ projects projcontain {
   transition: border-color 0.3s, background-color 0.5s;
 }
 
-projects projcontain div{
+projects projcontain container{
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 15px;
-  padding-bottom: -25px;
+  padding: 30px;
   justify-content: center;
   border: 3px solid #2a6964;
   background-color: #d1e8eb70;
@@ -56,33 +55,32 @@ projects projcontain div{
   text-decoration: none;
 }
 
-projects projcontain div:hover {
+projects projcontain container:hover {
   background-color: #d3dddd8f;
   border: 3px solid #28aca1;
 }
 
-projects projcontain div h3{
+projects projcontain container h3{
  padding: 20px;
 }
 
-projects projcontain div a{
+projects projcontain container a{
   text-decoration: none;
   width: 150px;
   border: 2px solid #2a6964;
   background-color: #96eedf70;
   font-family: "Montserrat", sans-serif;
   text-align: center;
-  margin-bottom: 20px;
   border-radius: 8px;
   transition: background-color 0.5s, border-color 0.3s, width 0.3s;
 }
 
-projects projcontain div a:hover {
+projects projcontain container a:hover {
   border: 2px solid #23a781;
   background-color: #83dac8b6;
 }
 
-projects projcontain div ul {
+projects projcontain container ul {
     display: flex;
     justify-content: center;
     gap: 5px;
@@ -94,7 +92,7 @@ projects projcontain div ul {
     flex-wrap: wrap;
 }
 
-projects projcontain div ul li {
+projects projcontain container ul li {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -105,7 +103,7 @@ projects projcontain div ul li {
   color: #2e8d75;
 }
 
-projects projcontain div p {
+projects projcontain container p {
   display: flex;
   overflow-wrap: break-word;
   flex-direction: column;
@@ -122,7 +120,7 @@ projects projcontain div p {
   transition: border-color 0.3s, background-color 0.5s;
  }
 
- projects projcontain div p:hover {
+ projects projcontain container p:hover {
   background-color: #50a8a1d3;
  }
 

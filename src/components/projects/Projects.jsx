@@ -31,7 +31,7 @@ const project_data = [
         link: "https://github.com/Gitphin/bestbrains-thinker",
         title: 'BB Thinker',
         skills: ['Python', 'PyInstaller'],
-        description: "This tool was a very short and simple project I made for my job as a coding instructor at Best Brains. It uses tkinter and libraries working with OS and creating executables to help my students navigate their computer. Need to update the graphics and functionality!",
+        description: "This tool was a very short and simple project I made for my job as a coding instructor at Best Brains. It uses tkinter and libraries working with OS and creating executables to help my students navigate their computer. Need to update the graphics and functionality, as well as how exe handled!",
     },
 
     {   
@@ -47,7 +47,7 @@ const project_data = [
         link: "https://github.com/Gitphin/school_projects",
         title: 'School Projects',
         skills: ['Python', 'Java', 'OCaml', 'C', 'ASM'],
-        description: "These are some projects I have been able to recover from school. I had a hard drive failure in my second year and a lot has been lost, here is what remains!",
+        description: "These are some projects I have been able to recover from school. I had a hard drive failure in my second year and a lot has been lost, here is what remains of my work!",
     },
 ];
 
@@ -59,7 +59,7 @@ export const Projects = () => {
                 <h1 className='main_sub'>My Projects</h1>
                     <projcontain>
                         {project_data.map((project) => (
-                        <div className="project">
+                        <container className="project">
                             <a href={project.link}>
                                 <img src={project.image} />
                             </a>
@@ -70,7 +70,7 @@ export const Projects = () => {
                             ))}
                             </ul>
                             <p>{project.description}</p>
-                        </div>
+                        </container>
                         ))}
                     </projcontain>                 
             </projects>
