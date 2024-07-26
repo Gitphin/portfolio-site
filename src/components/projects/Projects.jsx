@@ -15,7 +15,7 @@ const project_data = [
         link: "https://github.com/Gitphin/midas_lang",
         title: 'Midas Lang',
         skills: ['Rust', 'ASM', 'Java'],
-        description: "This is my attempt at learning more about Rust while making my own language! I have made a basic lexer/parser and AST while following the book 'Crafting Interpreters'. This is still a WIP"
+        description: "This is my attempt at learning more about Rust while making my own language! I have made a basic lexer/parser and AST while following the book 'Crafting Interpreters'. This is still a WIP and will keep progressing."
     },
 
     {   
