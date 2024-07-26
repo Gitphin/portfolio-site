@@ -28,6 +28,7 @@ nav a {
   text-decoration: none;
   background: #28635e;
   padding: 0.8rem;
+  width: 90%;
   border-radius: 3rem;
   display: flex;
   color: #d6f9fd;
@@ -42,7 +43,7 @@ nav a:hover {
   font-size: 19px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 720px) {
     .container {
         flex-direction: column;
         padding: 1rem;

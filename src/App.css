@@ -39,11 +39,12 @@ body.dark-mode {
   color: #fafafa;
   font-size: 52px;
   user-select: none;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  box-shadow: 1px 1px 5px black, 1px 1px 3px white;
 }
 
 .main_sub:hover {
-  background-color: #50a8a1c7;
+  background-color: #50a8a1d3;
 
 }
 
@@ -70,13 +71,14 @@ body.dark-mode .main{
 body.dark-mode .main_sub {
   font-family: "Montserrat", sans-serif;
   border-color: #65ceab;
-  background-color: rgba(43, 44, 44, 0.75);
+  background-color: rgba(15, 97, 97, 0.5);
   color: rgb(211, 233, 233);
   transition: background-color 0.3s;
+  box-shadow: none;
 }
 
 body.dark-mode .main_sub:hover {
-  background-color: rgba(43, 44, 44, 0);
+  background-color: rgba(15, 97, 97, 0.25);
 }
 
 body.dark-mode .sub{
@@ -103,6 +105,7 @@ body.dark-mode nav a{
   color: rgb(255, 255, 255);
   background-color: rgb(43, 44, 44);
 }
+
 body.dark-mode nav a:hover {
   border-color: #9de4cc;
   background-color: rgba(124, 124, 124, 0.753);
@@ -154,8 +157,8 @@ body.dark-mode about p {
 }
 
 body.dark-mode about p:hover {
-background-color: #89cccf3f;
-border: 3px solid #23a095;
+  background-color: #89cccf3f;
+  border: 3px solid #23a095;
 }
 
 
@@ -212,16 +215,43 @@ body.dark-mode projects:hover {
   border: 4px solid #4a8173;
 }
 
-body.dark-mode projects a img{
+body.dark-mode projects projcontain div{
   background-color: rgb(65, 66, 66);
   border: 3px solid #65ceab;
 }
 
-body.dark-mode projects a img:hover{
-  background-color: #94a19fa6;
+body.dark-mode projects projcontain div:hover {
   border: 3px solid #aed3c8;
 }
 
+body.dark-mode projects projcontain div a{
+  padding: 5px;
+  border-radius: 8px;
+  background-color: #4e837d;
+  border: 2px solid #65ceab;
+}
+
+body.dark-mode projects projcontain div a:hover {
+  background-color: #89cccf3f;
+  border: 2px solid #23a095;
+}
+
+body.dark-mode projects projcontain div ul li {
+  background-color: rgb(65, 66, 66);
+  border: 2px solid #65ceab;
+  color: #fafafa;
+}
+
+body.dark-mode projects projcontain div p {
+  background-color: #4e837d;
+  border: 3px solid #65ceab;
+  color: rgb(255, 255, 255);
+}
+
+body.dark-mode projects projcontain div p:hover {
+  background-color: #89cccf3f;
+  border: 3px solid #23a095;
+}
 
 /* Contact */
 body.dark-mode contact {

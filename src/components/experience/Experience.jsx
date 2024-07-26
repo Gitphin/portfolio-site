@@ -80,7 +80,7 @@ export const Experience = () => {
     
     return (
         <section id="experience" className={styles.container}>
-            <experience className={styles.experience}>
+            <experience>
                 <h1 className='main_sub'>My Skills</h1>
                 <div className={styles.skillsContainer}>
                     {Object.keys(skillDescriptions).map(skill => (
