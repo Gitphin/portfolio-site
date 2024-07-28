@@ -56,7 +56,7 @@ about div button {
   border-radius: 8px;
   background-color: #217c74e7;
   color: #fafafa;
-  border: 3px solid #136950;
+  border: 2px solid #136950;
   padding: 15px;
   cursor: pointer;
   transition: border-color 0.3s, background-color 0.3s;
@@ -64,7 +64,7 @@ about div button {
 
 about div button:hover {
   background-color: rgba(61, 160, 130, 0.795);
-  border: 3px solid #1f9674;
+  border: 2px solid #1f9674;
 }
 
 about p {
