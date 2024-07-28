@@ -81,7 +81,7 @@ export const Experience = () => {
     return (
         <section id="experience" className={styles.container}>
             <experience>
-                <h1 className='main_sub'>My Skills</h1>
+                <h1 className='main_sub'>Experience</h1>
                 <div className={styles.skillsContainer}>
                     {Object.keys(skillDescriptions).map(skill => (
                         <skimg>

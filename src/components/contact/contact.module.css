@@ -36,10 +36,12 @@ contact h1 {
 contact div {
     width: 470px;
     border: 3px solid #2a6964;
-    background-color: #83dac8b6;
+    background-color: #30a7a133;
+    backdrop-filter: blur(3px) saturate(70%);
     border-radius: 8px;
     padding: 20px;
     transition: border-color 0.3s, background-color 0.3s;
+
 }
 
 contact div:hover {
@@ -71,7 +73,7 @@ contact div in input:hover {
 }
 
 contact div in input:focus {
-    background-color: #88caa9ab;
+    background-color: #50a8a1a1;
     color: white;
 }
 
@@ -94,7 +96,7 @@ contact div in textarea:hover {
 }
 
 contact div in textarea:focus {
-    background-color: #88caa9ab;
+    background-color: #50a8a1a1;
     color: white;
 }
 
@@ -107,12 +109,13 @@ contact div in button {
     font-size: 20px;
     color: white;
     transition: background-color 0.3s, border-color 0.3s, font-size 0.3s;
+    height: 60px;
 }
 
 contact div in button:hover {
     border: 3px solid #2a6964;
     background-color: #50a8a1c2;
-    font-size: 24px;
+    font-size: 26px;
     cursor: pointer;
 }
 

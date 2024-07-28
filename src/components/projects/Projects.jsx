@@ -47,7 +47,7 @@ const project_data = [
         link: "https://github.com/Gitphin/school_projects",
         title: 'School Projects',
         skills: ['Python', 'Java', 'OCaml', 'C', 'ASM'],
-        description: "These are some projects I have been able to recover from school. I had a hard drive failure in my second year and a lot has been lost, here is what remains of my work!",
+        description: "These are some projects I have been able to recover from school. I had a hard drive problem in my second year and a lot has been lost, here is what remains of my work!",
     },
 ];
 
@@ -56,7 +56,7 @@ export const Projects = () => {
     return (
         <section id="projects" className={styles.container}>
             <projects>
-                <h1 className='main_sub'>My Projects</h1>
+                <h1 className='main_sub'>Projects</h1>
                     <projcontain>
                         {project_data.map((project) => (
                         <container className="project">

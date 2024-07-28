@@ -53,7 +53,8 @@ h1 {
     max-height: 40px;
     padding: 20px;
     font-family: "Montserrat", sans-serif;
-    background-color: #d1e8eb70;
+    background-color: #d1e8eb00;
+    backdrop-filter: blur(2px) saturate(70%);
     border: 3px solid #2a6964;
     border-radius: 8px;
     transition: background-color 0.3s, border-color 0.3s;
@@ -67,8 +68,10 @@ h1 {
 
 dsc p {
     background-color: #eef1f16c;
+    backdrop-filter: blur(1px);
     border: 3px solid #2a6964;
     border-radius: 8px;
+    height: 80px;
     padding: 10px;
     width: 300px;
     transition: background-color 0.3s, border-color 0.3s;

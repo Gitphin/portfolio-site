@@ -161,6 +161,21 @@ body.dark-mode about p:hover {
   border: 3px solid #23a095;
 }
 
+body.dark-mode about div img {
+  background-color: #4e837d;
+  border: 3px solid #65ceab;
+}
+
+body.dark-mode about div button {
+  background-color: #4e837d;
+  border: 3px solid #65ceab;
+}
+
+body.dark-mode about div button:hover {
+  background-color: #89cccf3f;
+  border: 3px solid #23a095;
+}
+
 
 /* Experience / Skills */
 body.dark-mode skills {
@@ -277,23 +292,23 @@ body.dark-mode contact div:hover {
 body.dark-mode contact div in input {
   border-radius: 8px;
   padding: 10px;
-  border: 3px solid #2a6964;
+  border: 2px solid #65ceab;
   background-color: #d1e8eb70;
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
-  color: rgba(0, 0, 0, 0.541);
+  color: rgba(255, 255, 255, 0.6);
   transition: background-color 0.3s, border-color 0.3s;
 }
 
 body.dark-mode contact div in input:hover {
   background-color: #94a19fa6;
-  border: 3px solid #aed3c8;
+  border: 2px solid #aed3c8;
   color: white;
 }
 
 body.dark-mode contact div in input:focus {
   background-color: #4b92836e;
-  border: 3px solid #aed3c8;
+  border: 2px solid #aed3c8;
   color: white;
 }
 
@@ -301,31 +316,31 @@ body.dark-mode contact div in textarea {
   border-radius: 8px;
   padding: 10px;
   padding-bottom: 80px;
-  border: 3px solid #2a6964;
+  border: 2px solid #65ceab;
   background-color: #d1e8eb70;
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
-  color: rgba(0, 0, 0, 0.541);
+  color: rgba(255, 255, 255, 0.6);
   transition: background-color 0.3s, border-color 0.3s;
 }
 
 body.dark-mode contact div in textarea:hover {
   background-color: #94a19fa6;
-  border: 3px solid #aed3c8;
+  border: 2px solid #aed3c8;
   color: white;
 }
 
 body.dark-mode contact div in textarea:focus {
   background-color: #4b92836e;
-  border: 3px solid #aed3c8;
+  border: 2px solid #aed3c8;
   color: white;
 }
 
 body.dark-mode contact div in button {
   border-radius: 8px;
   padding: 10px;
-  border: 3px solid #2a6964;
-  background-color: #50a8a1;
+  border: 2px solid #65ceab;
+  background-color: #4e837d;
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
   color: white;
@@ -333,14 +348,14 @@ body.dark-mode contact div in button {
 }
 
 body.dark-mode contact div in button:hover {
-  border: 3px solid #aed3c8;
-  background-color: #94a19fa6;
+  background-color: #89cccf3f;
+  border: 2px solid #23a095;
   font-size: 24px;
 }
 
 body.dark-mode contact div in button:focus {
   background-color: #4b92836e;
-  border: 3px solid #aed3c8;
+  border: 2px solid #aed3c8;
   color: white;
 }
 
