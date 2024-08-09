@@ -4,13 +4,14 @@
     align-items: center;
     justify-content: center;
     padding: 25px;
+    padding-top: 80px;
 }
   
 about {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  max-width: 700px;
-  flex-wrap: wrap;
+  width: 60%;
   margin: auto;
   border: 4px solid #136950;
   background-color: #e5e5f7;
@@ -42,35 +43,21 @@ about div {
 }
 
 about div img {
-  width: 52%;
+  width: 62%;
   padding-left: 18px;
   padding-right: 18px;
   border-radius: 24%;
   border: 3px solid #136950;
   background:#217c74e7;
   padding: 10px;
-  transition: background-color 0.3s;
-}
-
-about div button {
-  border-radius: 8px;
-  background-color: #217c74e7;
-  color: #fafafa;
-  border: 2px solid #136950;
-  padding: 15px;
-  cursor: pointer;
-  transition: border-color 0.3s, background-color 0.3s;
-}
-
-about div button:hover {
-  background-color: rgba(61, 160, 130, 0.795);
-  border: 2px solid #1f9674;
+  transition: background-color 0.3s, border-radius 0.3s;
 }
 
 about p {
     padding: 15px;
-    width: 600px;
     border: 3px solid #2a6964;
+    max-width: 800px;
+    width: 70%;
     background-color: #d1e8eb00;
     backdrop-filter: blur(2px) saturate(70%);
     border-radius: 8px;
@@ -83,14 +70,16 @@ about p:hover {
   background-color: #83dac8b6;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .container {
     padding: 20px;
   }
 
   about {
-    padding: 15px;
-    max-width: 93%;
+    padding: 70px;
+    width: 60%;
+    padding-bottom: 60px;
+    padding-top: 20px;
   }
 
   about p {

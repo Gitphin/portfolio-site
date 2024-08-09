@@ -22,6 +22,9 @@ import jscript from '../../assets/experience/jscript.png';
 import css from '../../assets/experience/css.png';
 import ocaml from '../../assets/experience/ocaml.png';
 import postgres from '../../assets/experience/postgres.png';
+import sqlite from '../../assets/experience/sqlite.png';
+import flask from '../../assets/experience/flask.png';
+import more from '../../assets/experience/more.png';
 
 const skillDescriptions = {
     python: "Python - (Experienced)",
@@ -30,9 +33,11 @@ const skillDescriptions = {
     rust: "Rust - (Advanced)",
     cpp: "C++ - (Familiar)",
     dj: "Django - (Advanced)",
+    flask: "Flask - (Familiar)",
     asm: "Assembly - (Familiar)",
     node: "Node.js - (Familiar)",
     sql: "SQL - (Familiar)",
+    sqlite: "SQLite - (Familiar)",
     postman: "Postman - (Familiar)",
     git: "Git - (Advanced)",
     slack: "Slack - (Familiar)",
@@ -44,7 +49,8 @@ const skillDescriptions = {
     jscript: "JavaScript - (Familiar)",
     css: "CSS/HTML - (Familiar)",
     ocaml: "OCaml - (Advanced)",
-    postgres: "PostgreSQL - (Advanced)"
+    postgres: "PostgreSQL - (Advanced)",
+    more: "More to come soon!"
 };
 
 const skillImages = {
@@ -55,8 +61,10 @@ const skillImages = {
     asm,
     cpp,
     dj,
+    flask,
     node,
     sql,
+    sqlite,
     postman,
     git,
     slack,
@@ -68,7 +76,8 @@ const skillImages = {
     jscript,
     css,
     ocaml,
-    postgres
+    postgres,
+    more,
 };
 
 export const Experience = () => {

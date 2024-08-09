@@ -4,7 +4,7 @@ export const Contact = () => {
     return (
         <section id="contact" className={styles.container}>
         <contact>
-        <h1 className='main_sub'>Contact Me!</h1>
+        <h1 className='main_sub'>Contact Me Here!</h1>
         <div>
             <form action="https://api.web3forms.com/submit" method="POST">
                 {/* Change the key here in the future if you do not want to receive messages */}

@@ -3,14 +3,14 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 25px;
+  padding: 20px;
 }
 
 projects {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  max-width: 700px;
-  flex-wrap: wrap;
+  width: 60%;
   margin: auto;
   border: 4px solid #136950;
   background-color: #e5e5f7;
@@ -21,7 +21,7 @@ projects {
   justify-content: center;
   border-radius: 8px;
   transition: border-color 0.3s, background-color 0.3s;
-  padding: 20px; 
+  padding: 20px;
   padding-bottom: 60px;
 }
 
@@ -32,10 +32,9 @@ projects:hover {
 projects projcontain {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* Two columns */
-  max-width: 800px;
-  padding: 20px;
+  padding: 70px;
   flex-direction: column;
-  gap: 40px;
+  gap: 50px;
   border-radius: 8px;
   user-select: none;
   transition: border-color 0.3s, background-color 0.5s;
@@ -126,17 +125,26 @@ projects projcontain container p {
   background-color: #50a8a1d3;
  }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .container {
     padding: 20px;
+    display: flex;
   }
 
   projects {
-    padding: 15px;
-    max-width: 93%;
+    padding: 70px;
+    width: 60%;
+    padding-bottom: 0px;
+    padding-top: 20px;
   }
 
   projects projcontain {
   grid-template-columns: 1fr;
+  display: flex;
+  align-items: center;
+  }
+
+  projects projcontain container {
+    width: 110%;
   }
 }

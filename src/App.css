@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Varela+Round&display=swap");
 
+html {
+  scroll-behavior: smooth;
+  scroll-snap-stop: normal;
+}
 
 #root {
   display: flex;
@@ -164,16 +168,6 @@ body.dark-mode about p:hover {
 body.dark-mode about div img {
   background-color: #4e837d;
   border: 3px solid #65ceab;
-}
-
-body.dark-mode about div button {
-  background-color: #4e837d;
-  border: 2px solid #65ceab;
-}
-
-body.dark-mode about div button:hover {
-  background-color: #89cccf3f;
-  border: 2px solid #23a095;
 }
 
 
