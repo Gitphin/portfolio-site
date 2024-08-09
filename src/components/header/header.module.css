@@ -44,7 +44,7 @@ div p {
 
 }
 contactborder {
-    width: 65%;
+    width: 69%;
     height: 65px;
     display: flex;
     flex-direction: column;
@@ -61,7 +61,7 @@ contactborder {
 
 contactborder:hover {
   background-color: #50a8a1c2;
-  width: 69%;
+  width: 74%;
 }
 
 span {
