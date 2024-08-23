@@ -20,6 +20,14 @@ const project_data = [
 
     {   
         image: github,
+        link: "https://github.com/Gitphin/capy-ai",
+        title: 'Capy AI',
+        skills: ['Python', 'GroqAI', 'Flask', 'React', 'JavaScript', 'Three.js'],
+        description: "This is my take on the AI chatbot, but instead it is talking to a capybara. I made this to learn more about AI and integrating it with Flask. I also wanted to challenge myself by using Three.js as a base.",
+    },
+
+    {   
+        image: github,
         link: "https://github.com/Gitphin/nvim-configuration",
         title: 'Neovim Config',
         skills: ['Lua', 'Bash', 'Linux'],
@@ -40,14 +48,6 @@ const project_data = [
         title: 'Mini Projects',
         skills: ['Python', 'CSS', 'HTML', 'Random'],
         description: "These are very random, not great quality projects that I made and remembered to push to GitHub. Most of these programs are coded using Python, but I think one of them is your standard To-Do app using CSS/HTML.",
-    },
-
-    {   
-        image: github,
-        link: "https://github.com/Gitphin/school_projects",
-        title: 'School Projects',
-        skills: ['Python', 'Java', 'OCaml', 'C', 'ASM'],
-        description: "These are some projects I have been able to recover from school. I had a hard drive problem in my second year and a lot has been lost, here is what remains of my work!",
     },
 ];
 
