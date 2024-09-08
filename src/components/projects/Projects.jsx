@@ -36,10 +36,10 @@ const project_data = [
 
     {   
         image: github,
-        link: "https://github.com/Gitphin/bestbrains-thinker",
-        title: 'BB Thinker',
-        skills: ['Python', 'PyInstaller'],
-        description: "This tool was a very short and simple project I made for my job as a coding instructor at Best Brains. It uses tkinter and libraries working with OS and creating executables to help my students navigate their computer. Need to update the graphics and functionality, as well as how exe handled!",
+        link: "https://github.com/Gitphin/box-it",
+        title: 'Box-It',
+        skills: ['Python', 'PyQt, Pathlib/os'],
+        description: "This is a Python script/app I made with PyQt to help me organize my computer better! It has drag/drop support for file uploads, and ability to customize folder names and locations.",
     },
 
     {   
